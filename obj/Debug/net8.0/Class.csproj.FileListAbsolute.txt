@@ -12,3 +12,4 @@ C:\Users\Admin\Documents\GitHub\Class\obj\Debug\net8.0\refint\Class.dll
 C:\Users\Admin\Documents\GitHub\Class\obj\Debug\net8.0\Class.pdb
 C:\Users\Admin\Documents\GitHub\Class\obj\Debug\net8.0\Class.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\Class\obj\Debug\net8.0\ref\Class.dll
+C:\Users\Admin\Documents\GitHub\Class\obj\Debug\net8.0\Class.sourcelink.json

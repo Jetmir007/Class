@@ -3,33 +3,35 @@ namespace Class
     public class Fordon
     {
         private string tillverkare;
+
+        public string Tillverkare{
+            get{ return tillverkare;}
+            set{ tillverkare = value;}
+        }
         private int år;
+
+        public int År{
+            get{ return år;}
+            set{år = value;}
+        }
         private string modell;
+
+        public string Modell{
+            get{return modell;}
+            set{modell = value;}
+        }
         private int vikt;
 
-        public void setTillverkare(string T){
-            tillverkare = T;
-        }  
-        public string getTillverkare() {
-            return tillverkare;
+        public int Vikt{
+            get{return vikt;}
+            set{vikt = value;}
         }
-        public void setÅr(int å){
-            år =å;
-        } 
-        public int getÅr() {
-            return år;
-        }
-        public void setModell(string m) {
+
+        public Fordon(string t, int å, string m, int v){
+            tillverkare = t;
+            år = å;
             modell = m;
-        }
-        public string getModell(){
-            return modell;
-        }
-        public void setVikt(int v) {
             vikt = v;
-        }
-        public int getVikt() {
-            return vikt;
         }
     }
 }
