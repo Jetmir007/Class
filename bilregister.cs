@@ -19,8 +19,8 @@ namespace Class
 
         public void SkrivUt(){
             foreach(Fordon element in bilregister){
-                Console.WriteLine("Tillverkaren är :"+ element.Tillverkare);
-                Console.WriteLine("Årsmodellen är:" + element.År);
+                Console.WriteLine("Tillverkaren är: "+ element.Tillverkare);
+                Console.WriteLine("Årsmodellen är :" + element.År);
                 Console.WriteLine("Modellen är: " + element.Modell);
                 Console.WriteLine("Vikten är: " + element.Vikt);
                 Console.WriteLine();

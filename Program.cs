@@ -1,11 +1,11 @@
 ﻿using Class;
 
-static void Main(string[] args){
+static void Main(){
     int val = 1;
     Bilregister b = new Bilregister();
     while (val != 0){
         Console.WriteLine("Välj ett alternativ:");
-        Console.WriteLine("1. Skapa ny bil");
+        Console.WriteLine("1. Lägg till ny bil i registret");
         Console.WriteLine("2. Visa bilar");
         Console.WriteLine("0. Avsluta");
         val = Convert.ToInt32(Console.ReadLine());
@@ -20,5 +20,5 @@ static void Main(string[] args){
         }
 }
 }
-Main(args);
+Main();
   
