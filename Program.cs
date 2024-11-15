@@ -1,23 +1,24 @@
 ﻿using Class;
 
-static void Main(){
+static void Main(string[] args){
     int val = 1;
-    Fordon f = new Fordon();
+    Bilregister b = new Bilregister();
     while (val != 0){
         Console.WriteLine("Välj ett alternativ:");
         Console.WriteLine("1. Skapa ny bil");
         Console.WriteLine("2. Visa bilar");
-        Console.WriteLine("3. Avsluta");
+        Console.WriteLine("0. Avsluta");
         val = Convert.ToInt32(Console.ReadLine());
         if(val == 1){
-            f.NyBil();
+            b.NyBil();
         }
         else if(val == 2){
-            f.SkrivUt();
+            b.SkrivUt();
         }
-        else if(val == 3){
+        else if(val == 0){
             break;
         }
 }
 }
+Main(args);
   

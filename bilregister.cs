@@ -1,10 +1,10 @@
 namespace Class
 {
-    public class Bilregister
+    class Bilregister
     {
         private List<Fordon> bilregister = new List<Fordon>();
 
-        public void nyBil(){
+        public void NyBil(){
             Console.WriteLine("Skriv tillverkaren");
             string nyTillverkare = Console.ReadLine();
             Console.WriteLine("Skriv årsmodellen");
@@ -14,15 +14,18 @@ namespace Class
             Console.WriteLine("Skriv vikten");
             int nyVikt = Convert.ToInt32(Console.ReadLine());
             Fordon nyBil = new Fordon(nyTillverkare, nyÅr, nyModell, nyVikt);
+            bilregister.Add(nyBil);
         }
 
-        public void skrivUt(){
+        public void SkrivUt(){
             foreach(Fordon element in bilregister){
-                Console.WriteLine(element.Tillverkare);
-                Console.WriteLine(element.År);
-                Console.WriteLine(element.Modell);
-                Console.WriteLine(element.Vikt);
+                Console.WriteLine("Tillverkaren är :"+ element.Tillverkare);
+                Console.WriteLine("Årsmodellen är:" + element.År);
+                Console.WriteLine("Modellen är: " + element.Modell);
+                Console.WriteLine("Vikten är: " + element.Vikt);
+                Console.WriteLine();
             }
+            
         }
     }
 }

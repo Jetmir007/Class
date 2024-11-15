@@ -1,3 +1,5 @@
+
+
 namespace Class
 {
     public class Fordon
@@ -34,6 +36,6 @@ namespace Class
             vikt = v;
         }
 
-
+        public Fordon(){}
     }
 }

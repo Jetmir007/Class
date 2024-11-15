@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\Class\\Class.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\Class\\Class.csproj": {}
   },
   "projects": {
-    "C:\\Github\\Class\\Class.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Class\\Class.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\Class\\Class.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Class\\Class.csproj",
         "projectName": "Class",
-        "projectPath": "C:\\Github\\Class\\Class.csproj",
-        "packagesPath": "C:\\Users\\jeku07001\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\Class\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Class\\Class.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Class\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jeku07001\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
